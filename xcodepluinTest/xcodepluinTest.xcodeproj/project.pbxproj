@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1520B7D1CF848A5005FDF2F /* faild.png in Resources */ = {isa = PBXBuildFile; fileRef = E1520B7B1CF848A5005FDF2F /* faild.png */; };
+		E1520B7E1CF848A5005FDF2F /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = E1520B7C1CF848A5005FDF2F /* success.png */; };
+		E18174061CF82DE60056FAD2 /* NSObject+MethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = E18174051CF82DE60056FAD2 /* NSObject+MethodSwizzler.m */; };
+		E18174091CF82FD60056FAD2 /* NSObject+xcodeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E18174081CF82FD60056FAD2 /* NSObject+xcodeMessage.m */; };
+		E1CAFF931CF43C670043E1BD /* xcodepluinTest.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = E1CAFF921CF43C670043E1BD /* xcodepluinTest.xcscheme */; };
+		E1CAFF961CF43C670043E1BD /* xcodepluinTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAFF951CF43C670043E1BD /* xcodepluinTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1520B7B1CF848A5005FDF2F /* faild.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faild.png; sourceTree = "<group>"; };
+		E1520B7C1CF848A5005FDF2F /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		E18174041CF82DE60056FAD2 /* NSObject+MethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzler.h"; sourceTree = "<group>"; };
+		E18174051CF82DE60056FAD2 /* NSObject+MethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzler.m"; sourceTree = "<group>"; };
+		E18174071CF82FD60056FAD2 /* NSObject+xcodeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+xcodeMessage.h"; sourceTree = "<group>"; };
+		E18174081CF82FD60056FAD2 /* NSObject+xcodeMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+xcodeMessage.m"; sourceTree = "<group>"; };
+		E1CAFF8E1CF43C670043E1BD /* xcodepluinTest.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodepluinTest.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CAFF921CF43C670043E1BD /* xcodepluinTest.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = xcodepluinTest.xcscheme; path = xcodepluinTest.xcodeproj/xcshareddata/xcschemes/xcodepluinTest.xcscheme; sourceTree = SOURCE_ROOT; };
+		E1CAFF941CF43C670043E1BD /* xcodepluinTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xcodepluinTest.h; sourceTree = "<group>"; };
+		E1CAFF951CF43C670043E1BD /* xcodepluinTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcodepluinTest.m; sourceTree = "<group>"; };
+		E1CAFF971CF43C670043E1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E1CAFF861CF43C670043E1BD = {
+			isa = PBXGroup;
+			children = (
+				E1CAFF901CF43C670043E1BD /* xcodepluinTest */,
+				E1CAFF8F1CF43C670043E1BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CAFF8F1CF43C670043E1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAFF8E1CF43C670043E1BD /* xcodepluinTest.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CAFF901CF43C670043E1BD /* xcodepluinTest */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAFF941CF43C670043E1BD /* xcodepluinTest.h */,
+				E1520B7B1CF848A5005FDF2F /* faild.png */,
+				E1520B7C1CF848A5005FDF2F /* success.png */,
+				E1CAFF951CF43C670043E1BD /* xcodepluinTest.m */,
+				E18174041CF82DE60056FAD2 /* NSObject+MethodSwizzler.h */,
+				E18174051CF82DE60056FAD2 /* NSObject+MethodSwizzler.m */,
+				E18174071CF82FD60056FAD2 /* NSObject+xcodeMessage.h */,
+				E18174081CF82FD60056FAD2 /* NSObject+xcodeMessage.m */,
+				E1CAFF971CF43C670043E1BD /* Info.plist */,
+				E1CAFF911CF43C670043E1BD /* Supporting Files */,
+			);
+			path = xcodepluinTest;
+			sourceTree = "<group>";
+		};
+		E1CAFF911CF43C670043E1BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAFF921CF43C670043E1BD /* xcodepluinTest.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CAFF8D1CF43C670043E1BD /* xcodepluinTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CAFF9A1CF43C670043E1BD /* Build configuration list for PBXNativeTarget "xcodepluinTest" */;
+			buildPhases = (
+				E1CAFF8B1CF43C670043E1BD /* Sources */,
+				E1CAFF8C1CF43C670043E1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xcodepluinTest;
+			productName = xcodepluinTest;
+			productReference = E1CAFF8E1CF43C670043E1BD /* xcodepluinTest.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CAFF871CF43C670043E1BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "齐冲";
+				TargetAttributes = {
+					E1CAFF8D1CF43C670043E1BD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = E1CAFF8A1CF43C670043E1BD /* Build configuration list for PBXProject "xcodepluinTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1CAFF861CF43C670043E1BD;
+			productRefGroup = E1CAFF8F1CF43C670043E1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CAFF8D1CF43C670043E1BD /* xcodepluinTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CAFF8C1CF43C670043E1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1520B7D1CF848A5005FDF2F /* faild.png in Resources */,
+				E1520B7E1CF848A5005FDF2F /* success.png in Resources */,
+				E1CAFF931CF43C670043E1BD /* xcodepluinTest.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CAFF8B1CF43C670043E1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18174091CF82FD60056FAD2 /* NSObject+xcodeMessage.m in Sources */,
+				E18174061CF82DE60056FAD2 /* NSObject+MethodSwizzler.m in Sources */,
+				E1CAFF961CF43C670043E1BD /* xcodepluinTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1CAFF981CF43C670043E1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E1CAFF991CF43C670043E1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E1CAFF9B1CF43C670043E1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = xcodepluinTest/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunboxsoft.liuwenjie.xcodepluinTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		E1CAFF9C1CF43C670043E1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = xcodepluinTest/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunboxsoft.liuwenjie.xcodepluinTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CAFF8A1CF43C670043E1BD /* Build configuration list for PBXProject "xcodepluinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CAFF981CF43C670043E1BD /* Debug */,
+				E1CAFF991CF43C670043E1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CAFF9A1CF43C670043E1BD /* Build configuration list for PBXNativeTarget "xcodepluinTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CAFF9B1CF43C670043E1BD /* Debug */,
+				E1CAFF9C1CF43C670043E1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CAFF871CF43C670043E1BD /* Project object */;
+}
