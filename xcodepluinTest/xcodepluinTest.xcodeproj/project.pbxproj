@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1520B7D1CF848A5005FDF2F /* faild.png in Resources */ = {isa = PBXBuildFile; fileRef = E1520B7B1CF848A5005FDF2F /* faild.png */; };
-		E1520B7E1CF848A5005FDF2F /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = E1520B7C1CF848A5005FDF2F /* success.png */; };
 		E18174061CF82DE60056FAD2 /* NSObject+MethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = E18174051CF82DE60056FAD2 /* NSObject+MethodSwizzler.m */; };
 		E18174091CF82FD60056FAD2 /* NSObject+xcodeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E18174081CF82FD60056FAD2 /* NSObject+xcodeMessage.m */; };
 		E1CAFF931CF43C670043E1BD /* xcodepluinTest.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = E1CAFF921CF43C670043E1BD /* xcodepluinTest.xcscheme */; };
@@ -16,8 +14,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E1520B7B1CF848A5005FDF2F /* faild.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faild.png; sourceTree = "<group>"; };
-		E1520B7C1CF848A5005FDF2F /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
 		E18174041CF82DE60056FAD2 /* NSObject+MethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzler.h"; sourceTree = "<group>"; };
 		E18174051CF82DE60056FAD2 /* NSObject+MethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzler.m"; sourceTree = "<group>"; };
 		E18174071CF82FD60056FAD2 /* NSObject+xcodeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+xcodeMessage.h"; sourceTree = "<group>"; };
@@ -50,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				E1CAFF941CF43C670043E1BD /* xcodepluinTest.h */,
-				E1520B7B1CF848A5005FDF2F /* faild.png */,
-				E1520B7C1CF848A5005FDF2F /* success.png */,
 				E1CAFF951CF43C670043E1BD /* xcodepluinTest.m */,
 				E18174041CF82DE60056FAD2 /* NSObject+MethodSwizzler.h */,
 				E18174051CF82DE60056FAD2 /* NSObject+MethodSwizzler.m */,
@@ -126,8 +120,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1520B7D1CF848A5005FDF2F /* faild.png in Resources */,
-				E1520B7E1CF848A5005FDF2F /* success.png in Resources */,
 				E1CAFF931CF43C670043E1BD /* xcodepluinTest.xcscheme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
